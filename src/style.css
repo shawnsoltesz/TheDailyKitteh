@@ -16,11 +16,22 @@ h1 {
   font-family: 'Libre Baskerville', serif;
 }
 
-h2 {
+h2,
+h3 {
+  font-family: 'Open Sans', sans-serif;
   color: rgb(89, 90, 93);
 }
 
 nav a {
-  color: white;
+  color: rgb(228, 222, 222);
   text-align: center;
+}
+
+footer a {
+  color: rgb(73, 75, 78);
+}
+
+a:hover,
+link:hover {
+  color: rgb(35, 128, 115);
 }
