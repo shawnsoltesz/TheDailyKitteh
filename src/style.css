@@ -7,4 +7,20 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(227, 250, 253);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(89, 90, 93);
+  font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+  color: rgb(89, 90, 93);
+}
+
+nav a {
+  color: white;
+  text-align: center;
 }
