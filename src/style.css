@@ -56,11 +56,31 @@ footer {
 
 article {
   display: flex;
-  justify-content: stretch;
+  justify-content: space-evenly;
+  align-content: space-between;
+  background-color: rgb(191, 196, 197);
+}
+
+aside img {
+  padding: 5px, 5px, 5px, 5px;
 }
 
 nav ul,
 footer ul {
   padding: 0;
   list-style: none;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:focus,
+a:hover {
+  text-decoration: underline;
+}
+header a:link,
+header a:visited {
+  color: #fdfdfd;
 }
