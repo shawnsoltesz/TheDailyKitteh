@@ -85,12 +85,13 @@ footer ul li.last-child {
 
 aside {
   display: flex;
-  height: 500px;
+  padding: 0.25rem;
+  height: 550px;
   width: 300px;
-  margin: 5px;
+  margin: 25px;
   flex-direction: column;
   justify-content: center;
-  border: 0.1rem solid rgb(11, 224, 224);
+  border: 2px solid rgb(11, 224, 224);
 }
 aside img {
   display: flex;
@@ -114,17 +115,13 @@ article {
   flex-direction: column;
 }
 
-/*article {
+article {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
 }
 
-aside img {
-  padding-block: 5px, 5px, 5px, 5px;
-}
-
-a:link,
+/*a:link,
 a:visited {
   text-decoration: none;
   color: #ffffff;
