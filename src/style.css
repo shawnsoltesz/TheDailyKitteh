@@ -24,24 +24,20 @@ h3 {
 
 a:hover,
 link:hover {
-  color: rgb(35, 128, 115);
+  color: rgb(6, 36, 32);
 }
 
 header {
   display: flex;
   justify-content: center;
+  align-content: flex-start;
 }
 
 nav a {
   color: rgb(255, 255, 255);
-  text-align: center;
-}
-
-nav ul,
-footer ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
 }
 
 nav ul {
@@ -49,31 +45,54 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
-nav ul li {
+nav ul li.first-child {
+  display: flex;
+  padding-left: 3rem;
+}
+
+nav ul li.last-child {
+  display: flex;
+  padding-right: 3rem;
+}
+
+nav ul li,
+footer ul li {
   display: inline;
-}
-
-footer a {
-  color: rgb(73, 75, 78);
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 footer ul {
   background-color: rgb(192, 192, 192);
-}
-footer ul {
   display: flex;
   flex-wrap: wrap;
-  padding: 10px;
-  justify-content: space-around;
-  color: rgb(100, 98, 98);
+  padding: 15px;
+  justify-content: space-evenly;
 }
 
-footer ul li {
+footer ul li a {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+footer ul li.first-child {
+  padding-left: 2rem;
+}
+
+footer ul li.last-child {
+  padding-right: 2rem;
+}
+
+aside,
+article {
   display: inline;
 }
+
 /*article {
   display: flex;
   justify-content: flex-end;
@@ -84,7 +103,7 @@ aside img {
   padding-block: 5px, 5px, 5px, 5px;
 }
 
-/*a:link,
+a:link,
 a:visited {
   text-decoration: none;
   color: #ffffff;
