@@ -11,35 +11,29 @@ body {
   min-height: 100%;
   background-color: rgb(227, 250, 253);
 }
-
 h1 {
   text-align: center;
   color: rgb(89, 90, 93);
   font-family: 'Libre Baskerville', serif;
   font-weight: bold;
 }
-
 aside h3,
 article h2 {
   font-family: 'Open Sans', sans-serif;
   color: rgb(94, 95, 98);
 }
-
 a:hover,
 link:hover {
   color: rgb(6, 36, 32);
 }
-
 header {
   display: flex;
   justify-content: center;
   align-content: flex-start;
 }
-
 nav a {
   color: rgb(255, 255, 255);
 }
-
 nav ul {
   background-color: rgb(124, 213, 224);
   display: flex;
@@ -48,17 +42,14 @@ nav ul {
   justify-content: space-evenly;
   align-content: flex-start;
 }
-
 nav ul li.first-child {
   display: flex;
   padding-left: 3rem;
 }
-
 nav ul li.last-child {
   display: flex;
   padding-right: 3rem;
 }
-
 nav ul li,
 footer ul li {
   display: inline;
@@ -66,7 +57,6 @@ footer ul li {
   margin: 0;
   list-style: none;
 }
-
 footer ul {
   background-color: rgb(192, 192, 192);
   display: flex;
@@ -74,15 +64,12 @@ footer ul {
   padding: 15px;
   justify-content: space-evenly;
 }
-
 footer ul li.first-child {
   padding: 0, 2rem, 0, 0;
 }
-
 footer ul li.last-child {
   padding: 0, 0, 2rem, 0;
 }
-
 aside {
   display: flex;
   padding: 0.25rem;
@@ -109,18 +96,14 @@ aside ul {
   flex-direction: column;
   justify-content: center;
 }
-
 article {
   display: flex;
   flex-direction: column;
 }
-
 article {
   display: flex;
-  justify-content: flex-end;
   flex-wrap: wrap;
 }
-
 /*a:link,
 a:visited {
   text-decoration: none;
