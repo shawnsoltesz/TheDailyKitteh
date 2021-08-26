@@ -31,9 +31,6 @@ header {
   justify-content: center;
   align-content: flex-start;
 }
-nav a {
-  color: rgb(255, 255, 255);
-}
 nav ul {
   background-color: rgb(124, 213, 224);
   display: flex;
@@ -45,6 +42,9 @@ nav ul li {
   padding: 0px 20px 0px 20px;
   margin: 0;
   list-style: none;
+}
+nav a {
+  color: rgb(255, 255, 255);
 }
 footer ul {
   background-color: rgb(192, 192, 192);
@@ -58,11 +58,14 @@ footer ul li {
   margin: 0;
   list-style: none;
 }
+footer a {
+  color: rgb(23, 24, 36);
+}
 aside {
   display: flex;
-  padding: 0.1rem;
-  height: 550px;
-  width: 300px;
+  padding: 0.5rem, 0.5rem, 0.5rem, 0.5rem;
+  height: 500px;
+  width: 250px;
   margin: 10px;
   flex-direction: column;
   justify-content: center;
@@ -84,23 +87,7 @@ aside ul {
   flex-direction: column;
   justify-content: center;
 }
-/*article {
-  display: flex;
-  flex-direction: column;
-}*/
 main {
   display: flex;
+  margin: 0.5rem;
 }
-/*a:link,
-a:visited {
-  text-decoration: none;
-  color: #ffffff;
-}
-a:focus,
-a:hover {
-  text-decoration: underline;
-}
-header a:link,
-header a:visited {
-  color: #fdfdfd;
-}*/
